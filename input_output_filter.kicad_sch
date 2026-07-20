@@ -974,405 +974,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:Transformer_Audio"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "T"
-				(at 0 11.684 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Transformer_Audio"
-				(at 0.254 9.398 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Audio transformer"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "transformer coil magnet sound"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Transformer_Audio_0_1"
-				(polyline
-					(pts
-						(xy -3.81 6.35) (xy -2.54 7.62) (xy 2.54 7.62) (xy 3.81 6.35) (xy 3.81 -6.35) (xy 2.54 -7.62)
-						(xy -2.54 -7.62) (xy -3.81 -6.35) (xy -3.81 6.35)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -1.27 3.81)
-					(mid -1.656 2.9336)
-					(end -2.54 2.5654)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 1.27)
-					(mid -1.656 0.3936)
-					(end -2.54 0.0254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 -1.27)
-					(mid -1.656 -2.1464)
-					(end -2.54 -2.5146)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -1.27 -3.81)
-					(mid -1.656 -4.6864)
-					(end -2.54 -5.0546)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 5.08)
-					(mid -1.642 4.708)
-					(end -1.27 3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 2.54)
-					(mid -1.642 2.168)
-					(end -1.27 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 0)
-					(mid -1.642 -0.372)
-					(end -1.27 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -2.54 -2.54)
-					(mid -1.642 -2.912)
-					(end -1.27 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 5.08) (xy -0.635 -5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.635 -5.08) (xy 0.635 5.08)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.2954 3.81)
-					(mid 1.6457 4.7117)
-					(end 2.54 5.08)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.2954 1.27)
-					(mid 1.6457 2.1717)
-					(end 2.54 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.2954 -1.27)
-					(mid 1.6457 -0.3683)
-					(end 2.54 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 2.5654)
-					(mid 1.6599 2.9299)
-					(end 1.2954 3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 0.0254)
-					(mid 1.6599 0.3899)
-					(end 1.2954 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.54 -2.5146)
-					(mid 1.6599 -2.1501)
-					(end 1.2954 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 1.3208 -3.81)
-					(mid 1.6711 -2.9085)
-					(end 2.5654 -2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 2.5654 -5.0546)
-					(mid 1.6851 -4.6902)
-					(end 1.3208 -3.81)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Transformer_Audio_1_1"
-				(pin input line
-					(at 0 -10.16 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "0"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 5.08 0)
-					(length 7.62)
-					(name "AA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 -5.08 0)
-					(length 7.62)
-					(name "AB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 -5.08 180)
-					(length 7.62)
-					(name "SA"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 10.16 5.08 180)
-					(length 7.62)
-					(name "SB"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Switch:SW_SPST"
 			(pin_names
 				(offset 0)
@@ -1640,13 +1241,19 @@
 		)
 	)
 	(junction
+		(at 68.58 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03af04fa-85e9-4186-a4c9-b490786689ae")
+	)
+	(junction
 		(at 68.58 137.16)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "05f9dd60-27e6-401e-9df1-c3865479e200")
 	)
 	(junction
-		(at 139.7 53.34)
+		(at 114.3 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "06aac2a9-cd2a-441e-a84d-b69bb5ceeebe")
@@ -1676,12 +1283,6 @@
 		(uuid "100976ff-e98b-40a2-ba3f-7a00275aeacd")
 	)
 	(junction
-		(at 68.58 60.96)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "13802576-387a-48df-aebd-31d908cf7ec4")
-	)
-	(junction
 		(at 229.87 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1700,16 +1301,10 @@
 		(uuid "237b6cac-512f-47d6-b7f3-6223a58765da")
 	)
 	(junction
-		(at 96.52 111.76)
+		(at 67.31 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2a9e7972-249c-430a-bb9e-972b39a2c70c")
-	)
-	(junction
-		(at 106.68 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "34b83bde-47ef-4d5e-90c7-245fd4e7e5b0")
+		(uuid "31096248-f75c-4080-8fc1-9c6c4df37138")
 	)
 	(junction
 		(at 73.66 149.86)
@@ -1742,12 +1337,6 @@
 		(uuid "47282630-4577-4bab-9d14-15fdd3063bce")
 	)
 	(junction
-		(at 96.52 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4c303ecb-5356-47a8-9e06-351f5b43a61d")
-	)
-	(junction
 		(at 67.31 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1758,12 +1347,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5324e6f2-8adf-4343-ab74-22f85f9fbc22")
-	)
-	(junction
-		(at 96.52 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5e1e6937-fd15-4915-96f3-f85235f27102")
 	)
 	(junction
 		(at 63.5 137.16)
@@ -1778,16 +1361,10 @@
 		(uuid "64c4fd8b-1321-4aa4-9d93-178150cf7c8a")
 	)
 	(junction
-		(at 138.43 20.32)
+		(at 68.58 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "685d0ef1-9559-4bb3-8fc3-88d4c4cfdf23")
-	)
-	(junction
-		(at 68.58 95.25)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c8b950d-428f-4055-ab7f-fab328f65f8d")
+		(uuid "663ee4f8-2e24-46a0-8f6a-54054539130c")
 	)
 	(junction
 		(at 212.09 29.21)
@@ -1808,16 +1385,16 @@
 		(uuid "883f2d64-73fd-4dd9-9301-3a38876a95e9")
 	)
 	(junction
-		(at 106.68 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8daccdf8-e670-4429-86e9-3c8254fbef27")
-	)
-	(junction
 		(at 68.58 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a915f47-ac09-4e4c-8263-9b329791d0ee")
+	)
+	(junction
+		(at 113.03 22.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9b6bcc43-249a-4258-944b-997357bfed85")
 	)
 	(junction
 		(at 72.39 31.75)
@@ -1826,7 +1403,7 @@
 		(uuid "9cc20b1c-baa8-49ee-804e-b573028adbf7")
 	)
 	(junction
-		(at 139.7 87.63)
+		(at 114.3 87.63)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a7b600d2-9903-4a6b-b02f-6592282a47ba")
@@ -1844,7 +1421,25 @@
 		(uuid "ad1ec9ad-3ff0-4788-89e0-8770dbcfb655")
 	)
 	(junction
-		(at 139.7 125.73)
+		(at 68.58 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b16eabd7-3461-4621-8229-170f2633f928")
+	)
+	(junction
+		(at 106.68 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b9cb0b81-90b0-40b6-af91-178dd17d69ba")
+	)
+	(junction
+		(at 106.68 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba8070b5-f5e0-405f-93f5-a2e0b8e3c2af")
+	)
+	(junction
+		(at 115.57 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "bc1de4c1-b55c-41c9-bab7-b48f06c4ce22")
@@ -1854,18 +1449,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c8bca00e-e1a1-40b2-be15-ee05a836d438")
-	)
-	(junction
-		(at 67.31 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cd9528be-87fe-47cd-a382-d764f8d5b981")
-	)
-	(junction
-		(at 106.68 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d0b130c5-f0e7-487e-92ea-18c46c95bd7f")
 	)
 	(junction
 		(at 229.87 114.3)
@@ -1878,12 +1461,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5867ad3-ba98-459b-9ddd-ad7456834e1b")
-	)
-	(junction
-		(at 105.41 44.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "da828980-84b3-4411-aba5-38ec29ea83cc")
 	)
 	(junction
 		(at 73.66 77.47)
@@ -1910,10 +1487,10 @@
 		(uuid "ee6e5800-2903-4d44-adc1-51d5201e9167")
 	)
 	(junction
-		(at 95.25 44.45)
+		(at 105.41 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f3cd374a-002a-40ce-85a0-b8eb14052c0a")
+		(uuid "efb2da34-bc32-4c44-8ea7-12c2a6b5c38d")
 	)
 	(junction
 		(at 72.39 44.45)
@@ -1928,10 +1505,10 @@
 		(uuid "f6366a78-f207-4925-8a81-bb903a94500e")
 	)
 	(junction
-		(at 68.58 133.35)
+		(at 107.95 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "fca20ce4-7e5f-4c9c-8136-1d0cc8642eac")
+		(uuid "fbb54920-9588-4265-9022-a902a48a4006")
 	)
 	(wire
 		(pts
@@ -1942,6 +1519,16 @@
 			(type default)
 		)
 		(uuid "0139032e-0278-413b-a28f-755dd61b20c2")
+	)
+	(wire
+		(pts
+			(xy 95.25 105.41) (xy 95.25 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01b0c62b-bab2-4f8e-9844-ccf6af7accd3")
 	)
 	(wire
 		(pts
@@ -2005,6 +1592,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 40.64) (xy 113.03 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0658d765-cf9e-46c3-9297-86cac0b5a2dd")
+	)
+	(wire
+		(pts
 			(xy 53.34 68.58) (xy 53.34 64.77)
 		)
 		(stroke
@@ -2022,16 +1619,6 @@
 			(type default)
 		)
 		(uuid "09692bff-caab-4145-9e69-9fbd4dd337ae")
-	)
-	(wire
-		(pts
-			(xy 106.68 111.76) (xy 156.21 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a80871e-8093-4289-a77e-303f760a8d5b")
 	)
 	(wire
 		(pts
@@ -2065,26 +1652,6 @@
 	)
 	(wire
 		(pts
-			(xy 105.41 44.45) (xy 154.94 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1084977b-6b33-4e6f-8280-b855def18a02")
-	)
-	(wire
-		(pts
-			(xy 115.57 30.48) (xy 115.57 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "108c7c4e-09ef-48ab-985d-eb84ad7b2d67")
-	)
-	(wire
-		(pts
 			(xy 83.82 64.77) (xy 73.66 64.77)
 		)
 		(stroke
@@ -2095,7 +1662,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 125.73) (xy 139.7 125.73)
+			(xy 107.95 127) (xy 115.57 127)
 		)
 		(stroke
 			(width 0)
@@ -2112,16 +1679,6 @@
 			(type default)
 		)
 		(uuid "14876491-4de3-4867-9f4e-577eab6b4f31")
-	)
-	(wire
-		(pts
-			(xy 96.52 111.76) (xy 96.52 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "14ff4845-2d07-47ce-bf1e-b08210b816be")
 	)
 	(wire
 		(pts
@@ -2215,13 +1772,23 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 125.73) (xy 139.7 128.27)
+			(xy 115.57 127) (xy 115.57 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "1ca0cc66-6439-42d1-935d-d3c877d0dcde")
+	)
+	(wire
+		(pts
+			(xy 93.98 27.94) (xy 93.98 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e048b9a-7132-4b6d-94ea-f67f17f6430f")
 	)
 	(wire
 		(pts
@@ -2255,17 +1822,7 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 143.51) (xy 96.52 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "223cc33b-7a8b-46eb-ab74-3653214d8fb9")
-	)
-	(wire
-		(pts
-			(xy 96.52 95.25) (xy 68.58 95.25)
+			(xy 68.58 95.25) (xy 95.25 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2275,7 +1832,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 20.32) (xy 138.43 20.32)
+			(xy 129.54 22.86) (xy 113.03 22.86)
 		)
 		(stroke
 			(width 0)
@@ -2295,13 +1852,13 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 95.25) (xy 132.08 87.63)
+			(xy 130.81 53.34) (xy 130.81 57.15)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2c98c468-aaae-41e4-a0e9-48c7b63b7caf")
+		(uuid "2d0c426e-894e-42ae-bed9-3e34b98a9346")
 	)
 	(wire
 		(pts
@@ -2325,16 +1882,6 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 149.86) (xy 96.52 153.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32b0b721-771c-4669-a6dd-beb8bbbb8399")
-	)
-	(wire
-		(pts
 			(xy 62.23 31.75) (xy 62.23 35.56)
 		)
 		(stroke
@@ -2355,27 +1902,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 149.86) (xy 156.21 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3af6c620-874c-4107-84b2-dcb35083ccd0")
-	)
-	(wire
-		(pts
-			(xy 96.52 77.47) (xy 96.52 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b7e5b3b-120e-4c8d-b07a-85115ff8a6a1")
-	)
-	(wire
-		(pts
-			(xy 156.21 53.34) (xy 139.7 53.34)
+			(xy 130.81 53.34) (xy 114.3 53.34)
 		)
 		(stroke
 			(width 0)
@@ -2385,23 +1912,13 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 149.86) (xy 156.21 125.73)
+			(xy 132.08 133.35) (xy 132.08 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4066908c-259e-40b7-a1e4-67a28e243072")
-	)
-	(wire
-		(pts
-			(xy 116.84 135.89) (xy 132.08 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4099cd3a-d801-47b0-b4a7-67d1b6ea1bb3")
 	)
 	(wire
 		(pts
@@ -2415,7 +1932,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 105.41) (xy 139.7 105.41)
+			(xy 95.25 105.41) (xy 114.3 105.41)
 		)
 		(stroke
 			(width 0)
@@ -2445,7 +1962,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 20.32) (xy 138.43 22.86)
+			(xy 113.03 22.86) (xy 113.03 25.4)
 		)
 		(stroke
 			(width 0)
@@ -2495,6 +2012,16 @@
 	)
 	(wire
 		(pts
+			(xy 95.25 144.78) (xy 95.25 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50c7362c-2701-422c-a3c6-4df7f527f54e")
+	)
+	(wire
+		(pts
 			(xy 83.82 137.16) (xy 73.66 137.16)
 		)
 		(stroke
@@ -2525,17 +2052,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 148.59) (xy 106.68 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "55f70279-ffa2-4ee4-b3eb-c17759b4b4cc")
-	)
-	(wire
-		(pts
-			(xy 96.52 133.35) (xy 68.58 133.35)
+			(xy 68.58 133.35) (xy 95.25 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2565,7 +2082,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 27.94) (xy 67.31 27.94)
+			(xy 93.98 27.94) (xy 67.31 27.94)
 		)
 		(stroke
 			(width 0)
@@ -2575,13 +2092,23 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 87.63) (xy 139.7 87.63)
+			(xy 130.81 87.63) (xy 114.3 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "5ba475cd-858c-4cab-8f48-5f7aabf59c7d")
+	)
+	(wire
+		(pts
+			(xy 105.41 30.48) (xy 105.41 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5bd2c1c5-aa9c-4c83-abfb-caaf1a1cda15")
 	)
 	(wire
 		(pts
@@ -2715,23 +2242,13 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 87.63) (xy 139.7 87.63)
+			(xy 106.68 87.63) (xy 114.3 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6cdc59a8-f6dd-41cf-a6b1-357cfb13cc9a")
-	)
-	(wire
-		(pts
-			(xy 116.84 97.79) (xy 116.84 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f0d21ab-701d-4984-afc0-38c72eb78aa0")
 	)
 	(wire
 		(pts
@@ -2785,26 +2302,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 63.5) (xy 116.84 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7714344d-4c27-4a9c-9f91-5c216043dc12")
-	)
-	(wire
-		(pts
-			(xy 130.81 27.94) (xy 130.81 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7a6cc905-943c-4a69-9337-d7d09dce6317")
-	)
-	(wire
-		(pts
 			(xy 63.5 137.16) (xy 63.5 140.97)
 		)
 		(stroke
@@ -2835,7 +2332,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 133.35) (xy 132.08 125.73)
+			(xy 107.95 134.62) (xy 107.95 127)
 		)
 		(stroke
 			(width 0)
@@ -2865,16 +2362,6 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 77.47) (xy 156.21 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8000bb4e-2ec5-4d57-9e7c-ccbf1e999a55")
-	)
-	(wire
-		(pts
 			(xy 83.82 140.97) (xy 83.82 137.16)
 		)
 		(stroke
@@ -2882,16 +2369,6 @@
 			(type default)
 		)
 		(uuid "81df17ee-a0bb-41f7-88fd-52710a5cf3a8")
-	)
-	(wire
-		(pts
-			(xy 106.68 110.49) (xy 106.68 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "827e99e5-e0f4-4108-924b-d0fe95bc32fe")
 	)
 	(wire
 		(pts
@@ -2985,16 +2462,6 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 135.89) (xy 116.84 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93850224-4f4b-464f-a25f-0bac0cfaec87")
-	)
-	(wire
-		(pts
 			(xy 72.39 35.56) (xy 72.39 31.75)
 		)
 		(stroke
@@ -3015,17 +2482,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 44.45) (xy 95.25 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "97170aca-8bb9-49a8-a1a4-39f6394f8ed5")
-	)
-	(wire
-		(pts
-			(xy 139.7 87.63) (xy 139.7 90.17)
+			(xy 114.3 87.63) (xy 114.3 90.17)
 		)
 		(stroke
 			(width 0)
@@ -3065,7 +2522,17 @@
 	)
 	(wire
 		(pts
-			(xy 139.7 53.34) (xy 139.7 55.88)
+			(xy 106.68 60.96) (xy 106.68 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a09b7dca-d0fa-40d1-9416-716713b25172")
+	)
+	(wire
+		(pts
+			(xy 114.3 53.34) (xy 114.3 55.88)
 		)
 		(stroke
 			(width 0)
@@ -3125,16 +2592,6 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 44.45) (xy 154.94 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a888e370-64fa-4439-bab7-14ac5347c8ec")
-	)
-	(wire
-		(pts
 			(xy 212.09 29.21) (xy 224.79 29.21)
 		)
 		(stroke
@@ -3155,16 +2612,6 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 38.1) (xy 138.43 38.1)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aba91d76-c075-4529-abbf-335a92f4f593")
-	)
-	(wire
-		(pts
 			(xy 73.66 137.16) (xy 68.58 137.16)
 		)
 		(stroke
@@ -3175,43 +2622,13 @@
 	)
 	(wire
 		(pts
-			(xy 96.52 60.96) (xy 68.58 60.96)
+			(xy 68.58 60.96) (xy 93.98 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b1600dfd-a30a-4474-be93-58ce03062969")
-	)
-	(wire
-		(pts
-			(xy 96.52 71.12) (xy 96.52 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3524389-cae5-469e-8ee0-b0b9163229b1")
-	)
-	(wire
-		(pts
-			(xy 115.57 30.48) (xy 130.81 30.48)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3f4f0f6-940c-421e-a601-c7dc4d6ed496")
-	)
-	(wire
-		(pts
-			(xy 96.52 105.41) (xy 96.52 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3fd0590-db90-4ba1-a741-196ad1f8af8c")
 	)
 	(wire
 		(pts
@@ -3225,13 +2642,33 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 143.51) (xy 139.7 143.51)
+			(xy 107.95 134.62) (xy 107.95 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b821c802-6321-4ca3-9c0e-c188b8cc1f5d")
+	)
+	(wire
+		(pts
+			(xy 95.25 144.78) (xy 115.57 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b93e4067-05de-4e91-9592-3e2b7da656b3")
+	)
+	(wire
+		(pts
+			(xy 67.31 27.94) (xy 67.31 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b97be29a-aa83-40b3-8aad-2b17662dc917")
 	)
 	(wire
 		(pts
@@ -3245,7 +2682,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 20.32) (xy 138.43 20.32)
+			(xy 105.41 22.86) (xy 113.03 22.86)
 		)
 		(stroke
 			(width 0)
@@ -3275,6 +2712,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 71.12) (xy 93.98 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2b13e02-cb0d-4826-a2aa-70e9084c01da")
+	)
+	(wire
+		(pts
 			(xy 229.87 114.3) (xy 241.3 114.3)
 		)
 		(stroke
@@ -3295,16 +2742,6 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 27.94) (xy 67.31 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c495f009-43e3-4dbf-8598-9829f5ccd015")
-	)
-	(wire
-		(pts
 			(xy 68.58 111.76) (xy 73.66 111.76)
 		)
 		(stroke
@@ -3315,17 +2752,17 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 63.5) (xy 132.08 63.5)
+			(xy 106.68 95.25) (xy 106.68 97.79)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c5687d45-df2f-4320-96e0-67dcc0cc088d")
+		(uuid "c67e1a2b-da6e-4e64-bc47-ef7f76842a9a")
 	)
 	(wire
 		(pts
-			(xy 156.21 111.76) (xy 156.21 87.63)
+			(xy 130.81 92.71) (xy 130.81 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3375,7 +2812,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 71.12) (xy 139.7 71.12)
+			(xy 93.98 71.12) (xy 114.3 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3435,6 +2872,16 @@
 	)
 	(wire
 		(pts
+			(xy 106.68 87.63) (xy 106.68 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc04bf23-9633-4e23-920b-38c4ec0c7a10")
+	)
+	(wire
+		(pts
 			(xy 68.58 133.35) (xy 68.58 137.16)
 		)
 		(stroke
@@ -3475,6 +2922,16 @@
 	)
 	(wire
 		(pts
+			(xy 105.41 22.86) (xy 105.41 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e22abb3f-2311-40af-bb33-a8d821e95df2")
+	)
+	(wire
+		(pts
 			(xy 83.82 68.58) (xy 83.82 64.77)
 		)
 		(stroke
@@ -3482,16 +2939,6 @@
 			(type default)
 		)
 		(uuid "e339c439-4a44-46c6-b0ec-91f0e33b0bf5")
-	)
-	(wire
-		(pts
-			(xy 106.68 77.47) (xy 156.21 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3d62d8b-b957-4649-af60-faff50b559fe")
 	)
 	(wire
 		(pts
@@ -3515,16 +2962,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 60.96) (xy 132.08 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ebc38c1d-b201-4162-8e10-d3bb751cd9e2")
-	)
-	(wire
-		(pts
 			(xy 73.66 77.47) (xy 73.66 76.2)
 		)
 		(stroke
@@ -3535,7 +2972,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 38.1) (xy 95.25 44.45)
+			(xy 129.54 22.86) (xy 129.54 25.4)
 		)
 		(stroke
 			(width 0)
@@ -3565,13 +3002,13 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 76.2) (xy 106.68 77.47)
+			(xy 106.68 53.34) (xy 106.68 60.96)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "efea9849-98d0-47e2-b08b-2a6b9946884c")
+		(uuid "f1af25de-f380-4fa4-b6df-6476911fc9ef")
 	)
 	(wire
 		(pts
@@ -3595,17 +3032,7 @@
 	)
 	(wire
 		(pts
-			(xy 116.84 97.79) (xy 132.08 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f472b61e-37de-4eef-87ec-40226eba9918")
-	)
-	(wire
-		(pts
-			(xy 132.08 53.34) (xy 139.7 53.34)
+			(xy 106.68 53.34) (xy 114.3 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3615,23 +3042,13 @@
 	)
 	(wire
 		(pts
-			(xy 156.21 125.73) (xy 139.7 125.73)
+			(xy 132.08 127) (xy 115.57 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "fa968073-30e2-40c7-9ad9-62a81879404d")
-	)
-	(wire
-		(pts
-			(xy 105.41 43.18) (xy 105.41 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fab04396-b8a1-4522-9912-2d3175d17e67")
 	)
 	(wire
 		(pts
@@ -3663,65 +3080,71 @@
 		)
 		(uuid "fe8f643b-3e6e-4c8f-b936-e794d2beeced")
 	)
-	(label "DAC3"
+	(hierarchical_label "DAC3"
+		(shape input)
 		(at 25.4 133.35 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "3bc7bb6f-4b7d-414c-8ec2-905306ce1dff")
+		(uuid "288a0449-3bc1-48a1-a90d-a9d910c9e6cd")
 	)
-	(label "DAC1"
-		(at 25.4 60.96 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9ab53cde-1c10-441a-a81a-1eee7175e0bf")
-	)
-	(label "ADC0"
+	(hierarchical_label "ADC0"
+		(shape input)
 		(at 274.32 39.37 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "9ba7a60b-7865-4167-b876-2c164a4a7c8c")
+		(uuid "69fbaa98-a630-4d85-94df-69e31768f314")
 	)
-	(label "ADC1"
+	(hierarchical_label "ADC1"
+		(shape input)
 		(at 274.32 114.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "c5613091-7c21-4a54-a54c-6f2546a59427")
+		(uuid "8786977b-5b6a-4da6-973d-475c243efc2b")
 	)
-	(label "DAC2"
-		(at 25.4 95.25 180)
+	(hierarchical_label "DAC1"
+		(shape input)
+		(at 25.4 60.96 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "df7bf3b2-dd39-48e4-ac36-ac41e9631c9c")
+		(uuid "99887dcb-d5ce-4ddf-8de8-ccb98cfdb768")
 	)
-	(label "DAC0"
+	(hierarchical_label "DAC0"
+		(shape input)
 		(at 24.13 27.94 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "e62e414a-613a-4f5c-bd0f-7647c37eef92")
+		(uuid "a3fff8ba-f786-4259-93ca-137f9c77a0f8")
+	)
+	(hierarchical_label "DAC2"
+		(shape input)
+		(at 25.4 95.25 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cd90c2b7-8bf2-4144-8918-4362c55a3ebe")
 	)
 	(symbol
 		(lib_id "Connector_Audio:XLR3_AudioJack3_Combo_Ground")
@@ -3813,86 +3236,8 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 96.52 115.57 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0646925a-4f5d-4bcf-837c-3ca1c5657b4a")
-		(property "Reference" "#PWR028"
-			(at 96.52 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 96.52 120.65 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 115.57 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "09eb343b-81d6-44df-a6a0-3ce590335439")
-		)
-		(instances
-			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -3971,7 +3316,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "C26")
 					(unit 1)
 				)
@@ -3980,7 +3325,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:NC3MAH")
-		(at 139.7 97.79 270)
+		(at 114.3 97.79 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3991,7 +3336,7 @@
 		(fields_autoplaced yes)
 		(uuid "0b2f341c-dc1e-4028-ab17-323235651440")
 		(property "Reference" "J3"
-			(at 146.05 96.5199 90)
+			(at 120.65 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4002,7 +3347,7 @@
 			)
 		)
 		(property "Value" "NC3MAH"
-			(at 146.05 99.0599 90)
+			(at 120.65 99.0599 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4013,7 +3358,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Audio:Jack_XLR_Neutrik_NC3MAH_Horizontal"
-			(at 139.7 97.79 0)
+			(at 114.3 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4024,7 +3369,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.neutrik.com/en/product/nc3mah"
-			(at 139.7 97.79 0)
+			(at 114.3 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4035,7 +3380,7 @@
 			)
 		)
 		(property "Description" "A Series, 3 pole male XLR receptacle, grounding: separate ground contact to mating connector shell and front panel, horizontal PCB mount"
-			(at 139.7 97.79 0)
+			(at 114.3 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4059,7 +3404,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "J3")
 					(unit 1)
 				)
@@ -4068,7 +3413,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:NC3MAH")
-		(at 138.43 30.48 270)
+		(at 113.03 33.02 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4079,7 +3424,7 @@
 		(fields_autoplaced yes)
 		(uuid "15caa0e7-0711-453b-9a92-87bb589b83e5")
 		(property "Reference" "J1"
-			(at 144.78 29.2099 90)
+			(at 119.38 31.7499 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4090,7 +3435,7 @@
 			)
 		)
 		(property "Value" "NC3MAH"
-			(at 144.78 31.7499 90)
+			(at 119.38 34.2899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4101,7 +3446,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Audio:Jack_XLR_Neutrik_NC3MAH_Horizontal"
-			(at 138.43 30.48 0)
+			(at 113.03 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4112,7 +3457,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.neutrik.com/en/product/nc3mah"
-			(at 138.43 30.48 0)
+			(at 113.03 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4123,7 +3468,7 @@
 			)
 		)
 		(property "Description" "A Series, 3 pole male XLR receptacle, grounding: separate ground contact to mating connector shell and front panel, horizontal PCB mount"
-			(at 138.43 30.48 0)
+			(at 113.03 33.02 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4147,7 +3492,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "J1")
 					(unit 1)
 				)
@@ -4229,7 +3574,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "C37")
 					(unit 1)
 				)
@@ -4311,7 +3656,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "R9")
 					(unit 1)
 				)
@@ -4389,7 +3734,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "#PWR029")
 					(unit 1)
 				)
@@ -4486,7 +3831,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "J5")
 					(unit 1)
 				)
@@ -4566,7 +3911,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "R22")
 					(unit 1)
 				)
@@ -4648,7 +3993,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "C33")
 					(unit 1)
 				)
@@ -4730,176 +4075,8 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "R18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 101.6 149.86 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2f23a7ce-96db-4110-afe7-bb276a865a57")
-		(property "Reference" "SW5"
-			(at 106.172 153.924 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 108.204 151.638 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm"
-			(at 101.6 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 101.6 149.86 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1230d853-7ac0-47a4-914f-56783ffb63cd")
-		)
-		(pin "2"
-			(uuid "f0dbeb2d-f6b6-4c3c-ac32-0d5b8b444c22")
-		)
-		(instances
-			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
-					(reference "SW5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Transformer_Audio")
-		(at 105.41 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ff95392-98c1-4b92-8622-fb026687b681")
-		(property "Reference" "T1"
-			(at 105.41 20.32 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Transformer_Audio"
-			(at 105.41 22.86 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 105.41 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Audio transformer"
-			(at 105.41 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "a2017fc5-b76a-4564-a94e-e69845ed7d2b")
-		)
-		(pin "3"
-			(uuid "a156f73c-630a-4b07-8e26-b050ae689098")
-		)
-		(pin "1"
-			(uuid "b06b2db0-f23e-413d-a50b-3f780429508b")
-		)
-		(pin "0"
-			(uuid "a4b41bf8-753e-43b2-87b7-05e023f66a0a")
-		)
-		(pin "2"
-			(uuid "d9997f8f-d8ad-47fe-ab24-e0ded2f984be")
-		)
-		(instances
-			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
-					(reference "T1")
 					(unit 1)
 				)
 			)
@@ -4993,7 +4170,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "J6")
 					(unit 2)
 				)
@@ -5071,7 +4248,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "#PWR027")
 					(unit 1)
 				)
@@ -5080,7 +4257,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 96.52 153.67 0)
+		(at 132.08 133.35 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5091,7 +4268,7 @@
 		(fields_autoplaced yes)
 		(uuid "4ffa3129-1704-4279-8664-c4d951dc7826")
 		(property "Reference" "#PWR030"
-			(at 96.52 160.02 0)
+			(at 132.08 139.7 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5102,7 +4279,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 96.52 158.75 0)
+			(at 132.08 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5112,7 +4289,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 96.52 153.67 0)
+			(at 132.08 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5123,7 +4300,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 96.52 153.67 0)
+			(at 132.08 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5134,7 +4311,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 153.67 0)
+			(at 132.08 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5149,7 +4326,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "#PWR030")
 					(unit 1)
 				)
@@ -5229,7 +4406,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "C24")
 					(unit 1)
 				)
@@ -5309,7 +4486,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "R16")
 					(unit 1)
 				)
@@ -5389,7 +4566,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "R13")
 					(unit 1)
 				)
@@ -5471,7 +4648,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "C27")
 					(unit 1)
 				)
@@ -5553,7 +4730,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "C36")
 					(unit 1)
 				)
@@ -5561,87 +4738,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 100.33 44.45 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "76f3440b-11f4-4d3a-b4f9-a6c75ee18d22")
-		(property "Reference" "SW2"
-			(at 104.902 48.514 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 106.934 46.228 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm"
-			(at 100.33 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 100.33 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 100.33 44.45 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "0c6cba80-ed66-4164-a629-a7c6496897f1")
-		)
-		(pin "2"
-			(uuid "f12c74ae-b080-4fdc-8ce2-ff9cd62494bf")
-		)
-		(instances
-			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 95.25 48.26 0)
+		(at 129.54 25.4 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5652,7 +4750,7 @@
 		(fields_autoplaced yes)
 		(uuid "7c76ea71-c037-4d86-b115-ae765d340d61")
 		(property "Reference" "#PWR024"
-			(at 95.25 54.61 0)
+			(at 129.54 31.75 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5663,7 +4761,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.25 53.34 0)
+			(at 129.54 30.48 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5673,7 +4771,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 48.26 0)
+			(at 129.54 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5684,7 +4782,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 48.26 0)
+			(at 129.54 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5695,7 +4793,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 48.26 0)
+			(at 129.54 25.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5710,7 +4808,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "#PWR024")
 					(unit 1)
 				)
@@ -5718,8 +4816,86 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 130.81 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "80fba66c-c4b9-4cb0-b47f-e9a646b1bdd8")
+		(property "Reference" "#PWR053"
+			(at 130.81 99.06 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 130.81 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 130.81 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "675e48fa-eb8f-42e8-95e0-ed2766f127a7")
+		)
+		(instances
+			(project "DSP-hw"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Audio:NC3MAH")
-		(at 139.7 63.5 270)
+		(at 114.3 63.5 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5730,7 +4906,7 @@
 		(fields_autoplaced yes)
 		(uuid "841616a3-4e1a-4312-bacc-93f116f3bcc0")
 		(property "Reference" "J2"
-			(at 146.05 62.2299 90)
+			(at 120.65 62.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5741,7 +4917,7 @@
 			)
 		)
 		(property "Value" "NC3MAH"
-			(at 146.05 64.7699 90)
+			(at 120.65 64.7699 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5752,7 +4928,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Audio:Jack_XLR_Neutrik_NC3MAH_Horizontal"
-			(at 139.7 63.5 0)
+			(at 114.3 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5763,7 +4939,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.neutrik.com/en/product/nc3mah"
-			(at 139.7 63.5 0)
+			(at 114.3 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5774,7 +4950,7 @@
 			)
 		)
 		(property "Description" "A Series, 3 pole male XLR receptacle, grounding: separate ground contact to mating connector shell and front panel, horizontal PCB mount"
-			(at 139.7 63.5 0)
+			(at 114.3 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5798,7 +4974,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "J2")
 					(unit 1)
 				)
@@ -5807,7 +4983,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:NC3MAH")
-		(at 139.7 135.89 270)
+		(at 115.57 137.16 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5818,7 +4994,7 @@
 		(fields_autoplaced yes)
 		(uuid "85f7fef7-d94a-48eb-8232-87a5bbcd7a01")
 		(property "Reference" "J4"
-			(at 146.05 134.6199 90)
+			(at 121.92 135.8899 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5829,7 +5005,7 @@
 			)
 		)
 		(property "Value" "NC3MAH"
-			(at 146.05 137.1599 90)
+			(at 121.92 138.4299 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5840,7 +5016,7 @@
 			)
 		)
 		(property "Footprint" "Connector_Audio:Jack_XLR_Neutrik_NC3MAH_Horizontal"
-			(at 139.7 135.89 0)
+			(at 115.57 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5851,7 +5027,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.neutrik.com/en/product/nc3mah"
-			(at 139.7 135.89 0)
+			(at 115.57 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5862,7 +5038,7 @@
 			)
 		)
 		(property "Description" "A Series, 3 pole male XLR receptacle, grounding: separate ground contact to mating connector shell and front panel, horizontal PCB mount"
-			(at 139.7 135.89 0)
+			(at 115.57 137.16 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5886,7 +5062,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "J4")
 					(unit 1)
 				)
@@ -5968,7 +5144,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "R11")
 					(unit 1)
 				)
@@ -6046,7 +5222,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "#PWR032")
 					(unit 1)
 				)
@@ -6126,7 +5302,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "C35")
 					(unit 1)
 				)
@@ -6208,86 +5384,8 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "C31")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 96.52 81.28 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c13a506-881d-49e0-91b5-537683142946")
-		(property "Reference" "#PWR026"
-			(at 96.52 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 96.52 86.36 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 96.52 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "956278b9-e33e-4fde-8489-c7a2c8ac2255")
-		)
-		(instances
-			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -6366,7 +5464,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "R12")
 					(unit 1)
 				)
@@ -6446,7 +5544,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "R19")
 					(unit 1)
 				)
@@ -6524,7 +5622,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "#PWR031")
 					(unit 1)
 				)
@@ -6606,7 +5704,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "C30")
 					(unit 1)
 				)
@@ -6684,7 +5782,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "#PWR021")
 					(unit 1)
 				)
@@ -6766,7 +5864,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "R20")
 					(unit 1)
 				)
@@ -6844,7 +5942,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "#PWR022")
 					(unit 1)
 				)
@@ -6852,87 +5950,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 101.6 111.76 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "9c2ace38-b131-4813-abfd-837f4f759fce")
-		(property "Reference" "SW4"
-			(at 106.172 115.824 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 108.204 113.538 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm"
-			(at 101.6 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 101.6 111.76 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "06f97097-7121-485e-a9e3-385b411cde7b")
-		)
-		(pin "2"
-			(uuid "b14ae964-047a-457b-abcd-ae79ff04124d")
-		)
-		(instances
-			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
-					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Transformer_Audio")
-		(at 106.68 66.04 0)
+		(lib_id "power:GND")
+		(at 130.81 57.15 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6941,9 +5960,10 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a23ee91b-7027-45f7-9e37-e7c9ab376b94")
-		(property "Reference" "T2"
-			(at 106.68 53.34 0)
+		(uuid "9f37595a-c0b2-4ba5-9237-fb3a3c7f7afe")
+		(property "Reference" "#PWR026"
+			(at 130.81 63.5 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6952,8 +5972,8 @@
 				)
 			)
 		)
-		(property "Value" "Transformer_Audio"
-			(at 106.68 55.88 0)
+		(property "Value" "GND"
+			(at 130.81 62.23 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6963,7 +5983,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 66.04 0)
+			(at 130.81 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6974,7 +5994,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 66.04 0)
+			(at 130.81 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6984,8 +6004,8 @@
 				)
 			)
 		)
-		(property "Description" "Audio transformer"
-			(at 106.68 66.04 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 57.15 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6994,26 +6014,14 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(pin "4"
-			(uuid "891c839e-801f-46db-b9dc-9727ef440130")
-		)
-		(pin "3"
-			(uuid "0d9147e0-137e-4e70-afbe-a8c7bffc6f5e")
 		)
 		(pin "1"
-			(uuid "c42b3e40-e940-4f3a-88c4-8ca76a9981b3")
-		)
-		(pin "0"
-			(uuid "515c2983-9077-4164-a59c-e8cd83ac7bc4")
-		)
-		(pin "2"
-			(uuid "d67cf29d-a350-426d-89e0-4c17cefd64bb")
+			(uuid "4aff863c-277e-4c47-8b10-f26aee9af0c3")
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
-					(reference "T2")
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -7092,7 +6100,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "R10")
 					(unit 1)
 				)
@@ -7187,7 +6195,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "J5")
 					(unit 2)
 				)
@@ -7266,7 +6274,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "SW6")
 					(unit 1)
 				)
@@ -7348,7 +6356,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "R14")
 					(unit 1)
 				)
@@ -7428,7 +6436,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "C32")
 					(unit 1)
 				)
@@ -7510,7 +6518,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "R21")
 					(unit 1)
 				)
@@ -7592,7 +6600,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "C28")
 					(unit 1)
 				)
@@ -7674,97 +6682,8 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Transformer_Audio")
-		(at 106.68 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d02304dd-a4d9-4d38-9eac-bb98ec370f12")
-		(property "Reference" "T4"
-			(at 106.68 125.73 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Transformer_Audio"
-			(at 106.68 128.27 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Audio transformer"
-			(at 106.68 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "6c660dfc-49bf-4ee4-a9c9-9322e002d58d")
-		)
-		(pin "3"
-			(uuid "b56837ca-20c0-492a-8056-71a58c44cfaa")
-		)
-		(pin "1"
-			(uuid "4eb45db5-12b3-4377-a1ea-f3e879e365ec")
-		)
-		(pin "0"
-			(uuid "5f7cab56-7cec-4ffe-a44d-3533de241fd7")
-		)
-		(pin "2"
-			(uuid "d060bcec-23e7-4511-af49-61d7c263ec80")
-		)
-		(instances
-			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
-					(reference "T4")
 					(unit 1)
 				)
 			)
@@ -7845,7 +6764,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "R23")
 					(unit 1)
 				)
@@ -7925,87 +6844,8 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "C25")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_SPST")
-		(at 101.6 77.47 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "d69a2de1-2dc1-44a2-8620-b4381c245d32")
-		(property "Reference" "SW3"
-			(at 106.172 81.534 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SW_SPST"
-			(at 108.204 79.248 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Button_Switch_THT:SW_DIP_SPSTx01_Slide_9.78x4.72mm_W7.62mm_P2.54mm"
-			(at 101.6 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 101.6 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "a863cbab-21f5-45be-ae1f-5596e03e639c")
-		)
-		(pin "2"
-			(uuid "6968a2f4-ad74-4903-8a2d-4ba862735117")
-		)
-		(instances
-			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
-					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -8086,7 +6926,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "R17")
 					(unit 1)
 				)
@@ -8168,97 +7008,8 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Transformer_Audio")
-		(at 106.68 100.33 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "dcfb05df-0c2e-4db4-b41d-7ab5a9d4172f")
-		(property "Reference" "T3"
-			(at 106.68 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Transformer_Audio"
-			(at 106.68 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 106.68 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 106.68 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Audio transformer"
-			(at 106.68 100.33 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "4"
-			(uuid "d079da44-0896-45cc-9b45-94fde15875a8")
-		)
-		(pin "3"
-			(uuid "a2cb372c-31af-487d-8ae1-a0dccefd1eb5")
-		)
-		(pin "1"
-			(uuid "9758e865-dc23-43c7-931f-57400c20d5be")
-		)
-		(pin "0"
-			(uuid "758c0b9a-6335-4998-83e5-8a0612faaa9c")
-		)
-		(pin "2"
-			(uuid "6df327d7-0590-4cf4-b913-7aec2ffa86d2")
-		)
-		(instances
-			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
-					(reference "T3")
 					(unit 1)
 				)
 			)
@@ -8339,7 +7090,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "C34")
 					(unit 1)
 				)
@@ -8417,7 +7168,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "#PWR023")
 					(unit 1)
 				)
@@ -8496,7 +7247,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "SW7")
 					(unit 1)
 				)
@@ -8574,7 +7325,7 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "#PWR025")
 					(unit 1)
 				)
@@ -8654,16 +7405,11 @@
 		)
 		(instances
 			(project "DSP-hw"
-				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e/b1594b18-a5a2-4f02-94db-7bd92af87bcb"
 					(reference "C29")
 					(unit 1)
 				)
 			)
-		)
-	)
-	(sheet_instances
-		(path "/"
-			(page "2")
 		)
 	)
 )

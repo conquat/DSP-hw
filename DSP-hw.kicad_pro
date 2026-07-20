@@ -449,6 +449,7 @@
       "footprint_filter": "ignore",
       "footprint_link_issues": "warning",
       "four_way_junction": "ignore",
+      "global_label_dangling": "warning",
       "ground_pin_not_ground": "warning",
       "hier_label_mismatch": "error",
       "isolated_pin_label": "warning",
@@ -466,7 +467,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -522,10 +523,14 @@
   },
   "pcbnew": {
     "last_paths": {
+      "gencad": "",
       "idf": "",
       "netlist": "",
       "plot": "",
+      "pos_files": "",
       "specctra_dsn": "",
+      "step": "",
+      "svg": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -636,9 +641,17 @@
     "meta": {
       "version": 1
     },
+    "net_format_name": "",
     "page_layout_descr_file": "",
     "plot_directory": "",
     "reuse_designators": true,
+    "space_save_all_events": true,
+    "spice_current_sheet_as_root": false,
+    "spice_external_command": "spice \"%I\"",
+    "spice_model_current_sheet_as_root": true,
+    "spice_save_all_currents": false,
+    "spice_save_all_dissipations": false,
+    "spice_save_all_voltages": false,
     "subpart_first_id": 65,
     "subpart_id_separator": 0,
     "top_level_sheets": [
@@ -646,19 +659,9 @@
         "filename": "DSP-hw.kicad_sch",
         "name": "DSP-hw",
         "uuid": "5eaf86e8-787c-412f-bf3f-89f6d5971c5e"
-      },
-      {
-        "filename": "input_output_filter.kicad_sch",
-        "name": "Input Output filter",
-        "uuid": "665533d7-60b6-4e6a-837a-6e08e6e15a4b"
-      },
-      {
-        "filename": "micro.kicad_sch",
-        "name": "Micro",
-        "uuid": "98a39af2-0518-4d24-afa6-9fb87408378f"
       }
     ],
-    "used_designators": "J1-8,R1-30,U1-5,T1-4,#PWR1-45,Q1,Y1,C1-47,SW1-8",
+    "used_designators": "R27,R31-35,J1-2,J9,U1,U4,D1-4,#PWR26,#PWR36-39,#PWR44,#PWR46-53,Q2,SW8,RV1-2",
     "variants": []
   },
   "sheets": [
@@ -667,11 +670,11 @@
       "DSP-hw"
     ],
     [
-      "665533d7-60b6-4e6a-837a-6e08e6e15a4b",
-      "Input Output filter"
+      "b1594b18-a5a2-4f02-94db-7bd92af87bcb",
+      "Input Output"
     ],
     [
-      "98a39af2-0518-4d24-afa6-9fb87408378f",
+      "129f587f-d4a2-4735-817a-425e4f752658",
       "Micro"
     ]
   ],
