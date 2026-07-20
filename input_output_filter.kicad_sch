@@ -3683,7 +3683,7 @@
 		)
 		(uuid "9ab53cde-1c10-441a-a81a-1eee7175e0bf")
 	)
-	(label "ADC1"
+	(label "ADC0"
 		(at 274.32 39.37 0)
 		(effects
 			(font
@@ -3693,7 +3693,7 @@
 		)
 		(uuid "9ba7a60b-7865-4167-b876-2c164a4a7c8c")
 	)
-	(label "ADC0"
+	(label "ADC1"
 		(at 274.32 114.3 0)
 		(effects
 			(font
@@ -3735,7 +3735,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "063c616d-0f74-48aa-8195-e3df74065490")
-		(property "Reference" "J1"
+		(property "Reference" "J6"
 			(at 198.12 100.3299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3814,7 +3814,7 @@
 		(instances
 			(project "DSP-hw"
 				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
-					(reference "J1")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3990,7 +3990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0b2f341c-dc1e-4028-ab17-323235651440")
-		(property "Reference" "J4"
+		(property "Reference" "J3"
 			(at 146.05 96.5199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4060,7 +4060,7 @@
 		(instances
 			(project "DSP-hw"
 				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
-					(reference "J4")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -4078,7 +4078,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "15caa0e7-0711-453b-9a92-87bb589b83e5")
-		(property "Reference" "J2"
+		(property "Reference" "J1"
 			(at 144.78 29.2099 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4148,7 +4148,7 @@
 		(instances
 			(project "DSP-hw"
 				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
-					(reference "J2")
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4408,7 +4408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23442ffa-66b3-4268-8058-17a2036b4604")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 198.12 25.3999 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4487,7 +4487,7 @@
 		(instances
 			(project "DSP-hw"
 				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
-					(reference "J6")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -4917,7 +4917,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "35fda9d5-85e1-41ad-9c3e-ddd74bb5fd3d")
-		(property "Reference" "J1"
+		(property "Reference" "J6"
 			(at 203.835 119.38 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4971,30 +4971,30 @@
 			)
 		)
 		(pin "2"
-			(uuid "db1b0e3c-9b31-48b3-adb5-00abaaf17e80")
+			(uuid "db1b0e3c-9b31-48b3-adb5-00abaaf17e81")
 		)
 		(pin "R"
-			(uuid "5e92ceb0-3162-4337-82ef-a18a24e304b1")
+			(uuid "5e92ceb0-3162-4337-82ef-a18a24e304b3")
 		)
 		(pin "S"
-			(uuid "652a7ebd-5e91-4fdc-ac4c-a142eb3604cb")
+			(uuid "652a7ebd-5e91-4fdc-ac4c-a142eb3604cd")
 		)
 		(pin "T"
-			(uuid "54f64b0a-8505-401b-bc6a-d2a161a4b461")
+			(uuid "54f64b0a-8505-401b-bc6a-d2a161a4b463")
 		)
 		(pin "G"
-			(uuid "17ad11f8-8f67-4336-9dba-70a604c1255f")
+			(uuid "17ad11f8-8f67-4336-9dba-70a604c12560")
 		)
 		(pin "3"
-			(uuid "244dd22d-fd31-46ea-9da0-428c792970e2")
+			(uuid "244dd22d-fd31-46ea-9da0-428c792970e3")
 		)
 		(pin "1"
-			(uuid "2c0767d5-98c7-4902-a490-a334eb958f70")
+			(uuid "2c0767d5-98c7-4902-a490-a334eb958f71")
 		)
 		(instances
 			(project "DSP-hw"
 				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
-					(reference "J1")
+					(reference "J6")
 					(unit 2)
 				)
 			)
@@ -5729,7 +5729,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "841616a3-4e1a-4312-bacc-93f116f3bcc0")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 146.05 62.2299 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5799,7 +5799,7 @@
 		(instances
 			(project "DSP-hw"
 				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -5817,7 +5817,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "85f7fef7-d94a-48eb-8232-87a5bbcd7a01")
-		(property "Reference" "J5"
+		(property "Reference" "J4"
 			(at 146.05 134.6199 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5887,7 +5887,7 @@
 		(instances
 			(project "DSP-hw"
 				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
-					(reference "J5")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -7111,7 +7111,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aca64030-e5eb-407c-89fc-eaddc97c1d07")
-		(property "Reference" "J6"
+		(property "Reference" "J5"
 			(at 203.835 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7165,7 +7165,7 @@
 			)
 		)
 		(pin "2"
-			(uuid "db1b0e3c-9b31-48b3-adb5-00abaaf17e80")
+			(uuid "db1b0e3c-9b31-48b3-adb5-00abaaf17e82")
 		)
 		(pin "R"
 			(uuid "1a8b9468-eb98-4965-a0c8-9c2d6a9dfcfb")
@@ -7177,18 +7177,18 @@
 			(uuid "e61bd477-b4d2-4fcd-9fb6-f5b101cfbfe2")
 		)
 		(pin "G"
-			(uuid "17ad11f8-8f67-4336-9dba-70a604c1255f")
+			(uuid "17ad11f8-8f67-4336-9dba-70a604c12561")
 		)
 		(pin "3"
-			(uuid "244dd22d-fd31-46ea-9da0-428c792970e2")
+			(uuid "244dd22d-fd31-46ea-9da0-428c792970e4")
 		)
 		(pin "1"
-			(uuid "2c0767d5-98c7-4902-a490-a334eb958f70")
+			(uuid "2c0767d5-98c7-4902-a490-a334eb958f72")
 		)
 		(instances
 			(project "DSP-hw"
 				(path "/665533d7-60b6-4e6a-837a-6e08e6e15a4b"
-					(reference "J6")
+					(reference "J5")
 					(unit 2)
 				)
 			)
