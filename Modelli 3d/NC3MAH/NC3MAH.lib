@@ -1,0 +1,25 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model NC3MAH
+#/13572680/1909233/2.50/4/3/Connector
+DEF NC3MAH J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "NC3MAH" 750 200 50 H V L CNN
+F2 "NC3MAH" 750 100 50 H I L CNN
+F3 "https://www.neutrik.com/en/product/nc3mah" 750 0 50 H I L CNN
+F4 "XLR Connectors 3C MALE PCB RECEPTACLE" 750 -100 50 H I L CNN "Description"
+F5 "25.3" 750 -200 50 H I L CNN "Height"
+F6 "568-NC3MAH" 750 -300 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Neutrik/NC3MAH?qs=MO8z%252B%252BLepAHrH1t47qrfbA%3D%3D" 750 -400 50 H I L CNN "Mouser Price/Stock"
+F8 "Neutrik" 750 -500 50 H I L CNN "Manufacturer_Name"
+F9 "NC3MAH" 750 -600 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X 1 1 0 -200 200 R 50 50 0 0 P
+X 2 2 0 0 200 R 50 50 0 0 P
+X 3 3 0 -100 200 R 50 50 0 0 P
+X G1 G1 900 0 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 700 100 700 -300 200 -300 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

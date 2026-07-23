@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP NC3MAH
+D XLR Connectors 3C MALE PCB RECEPTACLE
+K
+F https://www.neutrik.com/en/product/nc3mah
+$ENDCMP
+#
+#End Doc Library
