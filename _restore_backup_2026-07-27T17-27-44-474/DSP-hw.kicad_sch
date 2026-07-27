@@ -4676,16 +4676,6 @@
 	)
 	(wire
 		(pts
-			(xy 248.92 113.03) (xy 250.19 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bc7ab4e-7dc7-44ec-9295-5ede55b1b9c3")
-	)
-	(wire
-		(pts
 			(xy 251.46 138.43) (xy 259.08 138.43)
 		)
 		(stroke
@@ -5784,6 +5774,16 @@
 		)
 		(uuid "2e7836a9-d727-42ce-8c44-129e34c33ed1")
 	)
+	(label "MP1"
+		(at 250.19 107.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "302d0a5a-f124-4825-910c-b379666a8ba0")
+	)
 	(label "DAC3"
 		(at 52.07 33.02 0)
 		(effects
@@ -6014,7 +6014,7 @@
 		)
 		(uuid "af8b4666-4d01-47c7-94b2-19b644a33b0f")
 	)
-	(label "BCLK_2"
+	(label "BCLK__2"
 		(at 73.66 30.48 180)
 		(effects
 			(font
@@ -6084,16 +6084,6 @@
 		)
 		(uuid "ceddb9ac-d13f-490d-b33d-eff2ecf1af2b")
 	)
-	(label "MP3"
-		(at 250.19 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d35f8efe-2645-412b-899f-c6f48ddbbdb6")
-	)
 	(label "BCLK_2"
 		(at 250.19 133.35 0)
 		(effects
@@ -6114,7 +6104,7 @@
 		)
 		(uuid "e99192e6-4406-43ef-b731-ad9509b2e210")
 	)
-	(label "MP3"
+	(label "MP1"
 		(at 91.44 133.35 0)
 		(effects
 			(font

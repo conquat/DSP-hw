@@ -69,7 +69,13 @@
           "thermal_relief_spoke_width": 0.5
         }
       },
-      "diff_pair_dimensions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
       "drc_exclusions": [],
       "meta": {
         "version": 2
@@ -140,11 +146,11 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.1,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.5,
+        "min_copper_edge_clearance": 0.25,
         "min_groove_width": 0.0,
-        "min_hole_clearance": 0.25,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
@@ -203,7 +209,11 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.2,
+        0.5
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -230,7 +240,12 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -661,7 +676,7 @@
         "uuid": "5eaf86e8-787c-412f-bf3f-89f6d5971c5e"
       }
     ],
-    "used_designators": "R27,R31-35,J1-2,J9,U1,U4,D1-4,#PWR26,#PWR36-39,#PWR44,#PWR46-53,Q2,SW8,RV1-2",
+    "used_designators": "J1-2,J9-12,R27,R31-35,U1,U4-6,#PWR26,#PWR28,#PWR33-39,#PWR44,#PWR46-65,D1-4,Q2,SW2,SW8,RV1-2,C27,C30,C33,C36,C40,C45,C48,JP1-4",
     "variants": []
   },
   "sheets": [

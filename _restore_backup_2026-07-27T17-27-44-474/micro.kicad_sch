@@ -5341,16 +5341,6 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 77.47) (xy 267.97 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0bf66c61-5323-4594-a82f-650e8331b428")
-	)
-	(wire
-		(pts
 			(xy 30.48 173.99) (xy 36.83 173.99)
 		)
 		(stroke
@@ -6241,6 +6231,16 @@
 	)
 	(wire
 		(pts
+			(xy 264.16 125.73) (xy 266.7 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a19320a6-b30e-462e-a6fb-4ca245bcb676")
+	)
+	(wire
+		(pts
 			(xy 60.96 44.45) (xy 60.96 45.72)
 		)
 		(stroke
@@ -6949,7 +6949,7 @@
 		)
 		(uuid "227e3ed9-c161-41a1-9077-92b62c8b83d0")
 	)
-	(label "D+ iso"
+	(label "D+"
 		(at 267.97 100.33 0)
 		(effects
 			(font
@@ -6978,16 +6978,6 @@
 			(justify left bottom)
 		)
 		(uuid "4aee850f-62b7-4743-babe-c61a72b6c825")
-	)
-	(label "SWCLK"
-		(at 30.48 179.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5df6be3c-8aed-486c-98f8-4e549479f38a")
 	)
 	(label "D- iso"
 		(at 71.12 128.27 0)
@@ -7029,6 +7019,16 @@
 		)
 		(uuid "86cf5a92-e4cb-4f68-bea5-3073a4d7d4e2")
 	)
+	(label "SWCLK"
+		(at 30.48 176.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8dab86e9-c5fe-4082-ace9-4beecb1ac9c3")
+	)
 	(label "D-"
 		(at 85.09 80.01 0)
 		(effects
@@ -7038,16 +7038,6 @@
 			(justify left bottom)
 		)
 		(uuid "8e0fd603-2ee6-4005-ad13-3e6f0583f8ca")
-	)
-	(label "SWDIO"
-		(at 30.48 176.53 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "8fb1a246-9ee2-4544-b6a6-29bc5d258ee7")
 	)
 	(label "D- iso"
 		(at 116.84 80.01 0)
@@ -7089,6 +7079,16 @@
 		)
 		(uuid "d5cd1a56-ad3b-4349-91e3-09ab779d9c36")
 	)
+	(label "SWDIO"
+		(at 30.48 179.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e4f18c6c-da8a-473e-9e66-518b5955e6be")
+	)
 	(label "UART1_RX"
 		(at 267.97 92.71 0)
 		(effects
@@ -7099,7 +7099,7 @@
 		)
 		(uuid "e838c060-dc1a-40f7-b59c-da62ddaf12ec")
 	)
-	(label "D- iso"
+	(label "D-"
 		(at 267.97 97.79 0)
 		(effects
 			(font
@@ -7161,6 +7161,17 @@
 			(justify left)
 		)
 		(uuid "602d6aac-12e7-4d1d-a9e6-ad2db47adbc2")
+	)
+	(hierarchical_label "WP"
+		(shape input)
+		(at 266.7 125.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "66454630-bdbd-46e4-9d32-f72237a182ad")
 	)
 	(hierarchical_label "SCL"
 		(shape input)
@@ -7227,17 +7238,6 @@
 			(justify left)
 		)
 		(uuid "fa756dce-12e3-43c1-bdc9-be3819967b72")
-	)
-	(hierarchical_label "WP"
-		(shape input)
-		(at 267.97 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "fb0083e2-b47c-4e82-b83c-e3e918c9fdbf")
 	)
 	(hierarchical_label "DOUT"
 		(shape input)
@@ -8810,7 +8810,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
 			(at 41.91 53.34 0)
 			(hide yes)
 			(show_name no)
