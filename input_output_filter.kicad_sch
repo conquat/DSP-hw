@@ -4164,7 +4164,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3523N_Horizontal"
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_Lumberg_1503_07_Horizontal"
 			(at 129.54 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -4987,7 +4987,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ1-3523N_Horizontal"
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_Lumberg_1503_07_Horizontal"
 			(at 130.81 120.65 0)
 			(hide yes)
 			(show_name no)
