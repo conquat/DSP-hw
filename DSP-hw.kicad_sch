@@ -11732,7 +11732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-223-3_TabPin2"
 			(at 231.14 40.005 0)
 			(hide yes)
 			(show_name no)
@@ -11779,7 +11779,7 @@
 				)
 			)
 		)
-		(property "Sim.Pins" "1=C 2=B 3=E"
+		(property "Sim.Pins" "1=B 2=C 3=E"
 			(at 236.22 41.91 0)
 			(hide yes)
 			(show_name no)
