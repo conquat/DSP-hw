@@ -3485,6 +3485,12 @@
 		(uuid "0471470a-7393-423d-aacd-3c4dbd76ec37")
 	)
 	(junction
+		(at 254 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04d58a9f-6dfe-4bfc-8cd8-d7eb81d53765")
+	)
+	(junction
 		(at 254 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3627,6 +3633,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "642d1c3d-1fa9-4e92-9e30-bd62f73ce101")
+	)
+	(junction
+		(at 233.68 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e6d8db7-6103-40aa-bdee-065ace0e3b84")
 	)
 	(junction
 		(at 251.46 138.43)
@@ -4174,7 +4186,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 46.99) (xy 233.68 63.5)
+			(xy 233.68 46.99) (xy 233.68 55.88)
 		)
 		(stroke
 			(width 0)
@@ -4381,6 +4393,16 @@
 			(type default)
 		)
 		(uuid "445a8d69-4869-43d2-8b09-85199249c704")
+	)
+	(wire
+		(pts
+			(xy 246.38 55.88) (xy 254 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "454b2b53-7812-46d3-8901-20c5dc194c88")
 	)
 	(wire
 		(pts
@@ -4634,6 +4656,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 55.88) (xy 233.68 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "64d871eb-3b78-46bb-ab38-09256fe66544")
+	)
+	(wire
+		(pts
 			(xy 156.21 177.8) (xy 158.75 177.8)
 		)
 		(stroke
@@ -4731,6 +4763,16 @@
 			(type default)
 		)
 		(uuid "7143677c-e97b-4371-a998-d674acc1fd0d")
+	)
+	(wire
+		(pts
+			(xy 233.68 55.88) (xy 238.76 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72443331-f175-4831-ab50-a3c90b0c7f48")
 	)
 	(wire
 		(pts
@@ -5351,6 +5393,16 @@
 			(type default)
 		)
 		(uuid "c760d264-f058-4513-992d-7ffed6087cf0")
+	)
+	(wire
+		(pts
+			(xy 254 55.88) (xy 254 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7b5bd5a-5221-4e8a-88a0-5ee7f49510ca")
 	)
 	(wire
 		(pts
@@ -9556,6 +9608,85 @@
 			(project "DSP-hw"
 				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 242.57 55.88 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8490bf40-6b43-4b65-b2ca-bce815c446a2")
+		(property "Reference" "C5"
+			(at 248.666 51.816 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "100n"
+			(at 248.666 54.356 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 246.38 54.9148 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 242.57 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9e83c0fd-f79a-49fa-b3dc-8992be94a9cc")
+		)
+		(pin "2"
+			(uuid "67330e87-5460-4120-a8f8-c6a8014bd702")
+		)
+		(instances
+			(project "DSP-hw"
+				(path "/5eaf86e8-787c-412f-bf3f-89f6d5971c5e"
+					(reference "C5")
 					(unit 1)
 				)
 			)
