@@ -649,6 +649,18 @@
           "label": "#",
           "name": "${ITEM_NUMBER}",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S3.3",
+          "name": "KLC_S3.3",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "KLC_S4.1",
+          "name": "KLC_S4.1",
+          "show": false
         }
       ],
       "filter_string": "",
@@ -707,7 +719,7 @@
         "uuid": "5eaf86e8-787c-412f-bf3f-89f6d5971c5e"
       }
     ],
-    "used_designators": "R14,R27,R31-35,J1-2,J9,U1,U4,D1-4,#PWR26,#PWR36-39,#PWR44,#PWR46-53,#PWR66-67,Q2,SW8,RV1-2,C1-2,C5,C27,C49-50,Y1-2,H1-4",
+    "used_designators": "R14,R27,R31-35,J1-2,J9,U1,U4,D1-4,#PWR26,#PWR36-39,#PWR44,#PWR46-53,#PWR66-67,Q1-3,SW8,RV1-2,C1-2,C5,C27,C49-50,Y1-2,H1-4",
     "variants": []
   },
   "sheets": [
