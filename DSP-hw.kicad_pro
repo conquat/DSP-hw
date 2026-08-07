@@ -76,7 +76,16 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "courtyards_overlap|116555000|71455000|4920b0c2-1e42-4f87-96f9-2e8f834afeab|860483fa-4628-4e8c-9986-996461178fc5",
+          ""
+        ],
+        [
+          "courtyards_overlap|121570000|71455000|4920b0c2-1e42-4f87-96f9-2e8f834afeab|8abe2baf-c89d-48a2-b3ff-4c0f89ef77f9",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -86,7 +95,7 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "ignore",
+        "courtyards_overlap": "error",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
@@ -94,10 +103,10 @@
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
-        "footprint_filters_mismatch": "ignore",
+        "footprint_filters_mismatch": "warning",
         "footprint_symbol_field_mismatch": "warning",
         "footprint_symbol_mismatch": "warning",
-        "footprint_type_mismatch": "ignore",
+        "footprint_type_mismatch": "warning",
         "hole_clearance": "ignore",
         "hole_to_hole": "warning",
         "holes_co_located": "warning",
@@ -133,7 +142,7 @@
         "too_many_vias": "error",
         "track_angle": "error",
         "track_dangling": "warning",
-        "track_not_centered_on_via": "ignore",
+        "track_not_centered_on_via": "warning",
         "track_on_post_machined_layer": "error",
         "track_segment_length": "error",
         "track_width": "error",
@@ -213,6 +222,7 @@
         0.0,
         0.0,
         0.2,
+        0.3,
         0.5
       ],
       "tuning_pattern_settings": {
@@ -652,14 +662,14 @@
         },
         {
           "group_by": false,
-          "label": "KLC_S3.3",
-          "name": "KLC_S3.3",
+          "label": "KLC_S4.1",
+          "name": "KLC_S4.1",
           "show": false
         },
         {
           "group_by": false,
-          "label": "KLC_S4.1",
-          "name": "KLC_S4.1",
+          "label": "KLC_S3.3",
+          "name": "KLC_S3.3",
           "show": false
         }
       ],
@@ -719,7 +729,7 @@
         "uuid": "5eaf86e8-787c-412f-bf3f-89f6d5971c5e"
       }
     ],
-    "used_designators": "R14,R27,R31-35,J1-2,J9,U1,U4,D1-4,#PWR26,#PWR36-39,#PWR44,#PWR46-53,#PWR66-67,Q1-3,SW8,RV1-2,C1-2,C5,C27,C49-50,Y1-2,H1-4",
+    "used_designators": "R14,R20,R23,R27,R31-38,J1-2,J9,J12,U1,U4,D1-4,#PWR26,#PWR36-39,#PWR44,#PWR46-53,#PWR66-71,Q2,SW8,RV1-2,C1-2,C27,C49-50,Y1-2,H1-8",
     "variants": []
   },
   "sheets": [
